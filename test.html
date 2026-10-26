@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            tests
+        </title>
+        <style>
+            input
+            {
+                background-color: aquamarine;
+                font-size:12px;
+                width:300px;
+            }
+        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="min">
+            <p id="message">javascript dom</p>
+            <p  id="top" > top</p>
+            <div>
+            <input type="radio" name="language" value="javascript">
+            <br>
+            <input type="radio" name="language" value="python">
+            <br> 
+            </div>
+
+            <h1 class ="message">first heading</h1>
+            <div id="container">
+                <h1 class ="message">second heading</h1>
+                <h1 class ="message">third heading</h1>
+            </div>
+        </div>
+
+        <div class="title"> <!--parent element -->
+            <p class="text"> <!--child element -->
+                welcome to my world 1
+            </p>
+            <p class="second"> <!--child element -->
+                welcome to my world 2
+            </p>
+            <p class="text"> <!--child element -->
+                welcome to my world 3
+            </p>
+            <p class="text"> <!--child element -->
+                welcome to my world 4
+            </p>
+        </div>
+        <ul id="menu">
+            <li>Home</li>
+            <li>about</li>
+            <li>blog</li>
+            <li>project</li>
+        </ul>
+
+        <input type="text" id="username" placeholder="username">
+        <input type="text" id="username1" placeholder="username1">
+        <input type="text" id="username2" placeholder="username2">
+        <input type="text" id="username3" placeholder="username3">
+        <input type="text" id="username4" placeholder="username4" style="background: red ; font-size:20px">
+        <h1 id="john" class="main message"> the great</h1>
+        <div id="container">
+            <button id="btn" type="button" onclick="console.log(type)">click here1</button>
+        </div>
+        <div id="container1">
+            <button id="bton" >click here2</button>
+        </div>
+        <div id="container2">
+            <button id="btton" >click here3</button>
+        </div>
+        <div id="container3">
+            <button id="btton1" >click here4</button>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
+<script>
+    eruda.init();
+</script>
+
+<script src="app.js"></script>
+    </body>
+</html>
